@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home</title>
+    <title>Personal WebSite Fred Mutabazi (Backup 1707770968593)</title>
     <link rel="icon" type="image/jpeg" sizes="288x288" href="assets/img/avatars/Fred%20Penta.jpg">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;display=swap">
@@ -12,6 +11,27 @@
     <link rel="stylesheet" href="assets/css/Jumbotron-Effect.css">
     <link rel="stylesheet" href="assets/css/Lightbox-Gallery-baguetteBox.min.css">
     <link rel="stylesheet" href="assets/css/pikaday.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css"> <!-- Add this line -->
+<Style>
+@media (max-width: 767px) {
+    .gallery-image {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.contact-info img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.pc-icon-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+</style>
 
     <script type="application/ld+json">
         {
@@ -43,113 +63,71 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white fw-normal portfolio-navbar gradient">
-        <div class="container"><a class="navbar-brand logo" href="cv.html"><strong>FRED PENTA</strong></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-primary portfolio-navbar">
+        <div class="container">
+            <a class="navbar-brand logo" href="cv.html">FRED PENTA</a>
+            <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav">
+                <span class="visually-hidden">Toggle navigation</span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"><a class="nav-link" href="project-page.html">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Gallery.html">My Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="hire-me.html">Hire me</a></li>
+                    <li class="nav-item item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-capitalize active" href="Gallery.html">my gallery</a></li>
+                    <li class="nav-item item"><a class="nav-link" href="project-page.html">Projects</a></li>
+                    <li class="nav-item item"><a class="nav-link" href="cv.html">CV</a></li>
+                    <li class="nav-item item"><a class="nav-link" href="hire-me.html">Hire me</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <main class="page landing-page">
-        <section class="portfolio-block block-intro">
-            <div class="container text-center">
-                <img class="rounded-circle border border-primary" src="assets/img/avatars/Fred%20Penta.jpg" width="160" height="160" alt="Fred Penta">
-                <div class="about-me mt-3">
-                    <p>Hello! I am Fred Penta. I am a front-end developer. I have a passion for simple, functional, and responsive sites.</p>
-                    <a class="btn btn-outline-primary" role="button" href="hire-me.html">Hire me</a>
-                </div>
-            </div>
-        </section>
-        <section class="portfolio-block photography">
-            <div class="container">
-                <div class="row g-3">
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/avatars/Fred%20Penta.jpg" alt="Fred Penta"></a></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/avatars/Fred%20Penta.jpg" alt="Fred Penta"></a></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/avatars/Fred%20Penta.jpg" alt="Fred Penta"></a></div>
-                </div>
-            </div>
-        </section>
-        <section class="portfolio-block call-to-action border-bottom">
-            <div class="container">
-                <div class="d-flex justify-content-center align-items-center content">
-                    <h3>You can also <a class="btn btn-outline-primary btn-lg" role="button" href="hire-me.html">Hire me</a> if you like what you see</h3>
-                </div>
-            </div>
-        </section>
-        <section class="portfolio-block skills">
-            <div class="container">
-                <div class="heading">
-                    <h2>Special Skills</h2>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-star-outline"></i></div>
-                            <div class="card-body">
-                                <h3 class="card-title">Web Design</h3>
-                                <p class="card-text">I have sophisticated skills in web development, especially front-end web development. I learned the fundamentals at university and continued to study independently.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-lightbulb-outline"></i></div>
-                            <div class="card-body">
-                                <h3 class="card-title">Interface Design</h3>
-                                <p class="card-text">I can develop good-looking UIs and would be a valuable addition to your project.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-gear-outline"></i></div>
-                            <div class="card-body">
-                                <h3 class="card-title">Photography and Print</h3>
-                                <p class="card-text">I also have skills in photography, including taking photos and editing them using Adobe Photoshop and other software.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <section class="portfolio-block website gradient">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-12 col-lg-5 offset-lg-1 text">
-                    <h3>Website Project</h3>
-                    <p>Aside from this personal website you're currently viewing, my other project is my organizational website, which is on: fredpentapersonal.rf.gd</p>
-                </div>
-                <div class="col-md-12 col-lg-5">
-                    <div class="portfolio-laptop-mockup">
-                        <div class="screen">
-                            <div class="screen-content" style="background-image: url(&quot;assets/img/tech/image6.png&quot;);"><img src="assets/img/avatars/Fred%20Penta.jpg" width="295" height="188" alt="Project"></div>
-                        </div>
-                        <div class="keyboard"></div>
-                    </div>
+    <section class="fw-semibold text-center py-4 py-xl-5" style="padding-top: 0px;padding-bottom: 0px;margin-top: 88px;margin-bottom: 0px;">
+        <div class="container fw-semibold text-center">
+            <div class="row fw-semibold text-center mb-5">
+                <div class="col-md-8 col-xl-6 fw-semibold text-center mx-auto">
+                    <h1 class="text-capitalize fw-semibold text-center" style="margin-left: 71px;">Fred penta</h1>
                 </div>
             </div>
         </div>
+        <p class="text-capitalize fs-5 text-center" style="margin-left: 57px;">Hi, These are my Images And this is my gallery</p>
     </section>
-    <footer class="page-footer">
-        <div class="container">
-            <div class="links"><a href="cv.html">About me</a><a href="contact.html">Contact me</a><a href="project-page.html">Projects</a></div>
-            <div class="social-icons"><a href="https://www.facebook.com/fred.penta.5/"><i class="icon ion-social-facebook"></i></a><a href="https://www.facebook.com/fred.penta.5/"><i class="icon ion-social-instagram-outline"></i></a><a href="https://www.facebook.com/fred.penta.5/"><i class="icon ion-social-twitter"></i></a></div>
+    <div>
+        <section class="py-4 py-xl-5">
+            <div class="container">
+                <div class="row gx-2 gy-2 row-cols-1 row-cols-md-2 row-cols-xl-3" data-bss-baguettebox="" style="margin-left: 18px;padding-left: 93px;margin-top: -64px;padding-top: 10px;">
+                    <div class="col"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid gallery-image" src="assets/img/avatars/Fred%20Penta.jpg"></a></div>
+                    <div class="col"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid gallery-image" src="assets/img/avatars/Fred%20Penta.jpg"></a></div>
+                    <div class="col"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid gallery-image" src="assets/img/avatars/Fred%20Penta.jpg"></a></div>
+                    <div class="col"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid gallery-image" src="assets/img/avatars/Fred%20Penta.jpg"></a></div>
+                    <div class="col"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid gallery-image" src="assets/img/avatars/Fred%20Penta.jpg"></a></div>
+                    <div class="col"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid gallery-image" src="assets/img/avatars/Fred%20Penta.jpg"></a></div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="text-center contact-info portfolio-info-card">
+        <h2>Contact Info</h2>
+        <div class="row">
+            <div class="col-1"><i class="icon ion-android-calendar icon" style="margin-left: 404px;"></i></div>
+            <div class="col-9"><span>16/03/2000</span></div>
         </div>
-    </footer>
+        <div class="row">
+            <div class="col-1"><i class="icon ion-person icon" style="padding-right: 0px;margin-left: 405px;"></i></div>
+            <div class="col-9"><span>Fred Penta</span></div>
+        </div>
+        <div class="row">
+            <div class="col-1"><i class="icon ion-ios-telephone icon" style="margin-left: 404px;"></i></div>
+            <div class="col-9"><span>+256758567165</span></div>
+        </div>
+        <div class="row">
+            <div class="col-1"><i class="icon ion-at icon" style="margin-left: 400px;"></i></div>
+            <div class="col-9"><span>fredmeghanpenta@gmail.com</span></div>
+        </div>
+    </div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/Lightbox-Gallery-baguetteBox.min.js"></script>
     <script src="assets/js/Lightbox-Gallery.js"></script>
     <script src="assets/js/pikaday.min.js"></script>
     <script src="assets/js/theme.js"></script>
 </body>
-
 </html>
